@@ -1,0 +1,33 @@
+main: me.arrows.HotKey.Main
+name: HotKey
+version: 1.0
+author: Arrows
+api-version: 1.16
+commands:
+ Rs:
+ Sp:
+ Rl:
+ W-off:
+ W-on:
+ Gc:
+ Gs:
+ Gsp:
+ Cmds:
+ ---xz:
+ t-d:
+ t-n:
+ f:
+ w-c:
+ w-t:
+ w-r:
+ s:
+ s-n:
+ k:
+ b:
+ ipb:
+ s-h:
+ s-l:
+ s-fl:
+ npc-add:
+ npc-r:
+ 

